@@ -7,6 +7,8 @@ The PALAMEDES folder includes multiple scripts from the PALAMEDES library that
 I used to write my models.  The observer_models folder  includes lapse and non-lapse versions of the probit and logit ideal observer models.  Finally,
 the figures folder includes figures for each of the models above.  All of these are on simulated data, but work well on the mouse data as well.
 
+To run, simply choose a model from `observer_models` and have the PALAMEDES folder added to MATLAB path.
+
 Here is the output, showing that the models are able to recover the handpicked parameters using simulated data.
 
 >> logit_model_with_lapse
