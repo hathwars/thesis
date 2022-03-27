@@ -1,3 +1,4 @@
+clear all;
 % simulate_probit_model.m
 %
 % Simulate data from a probit regression model

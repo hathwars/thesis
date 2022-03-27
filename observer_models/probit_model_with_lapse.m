@@ -34,7 +34,7 @@ h = axes('units','pixels','position',[50 50 300 100]);
 set(h,'xtick',[-10 -2:1:2 10],'xlim',[-11 11],'ylim',[.4 1],'xticklabel',{'-10','-2','-1','0','1','2','10'});
 xlabel('Stimulus intensity');    
 ylabel('Proportion correct'); 
-title({'Logistic Psychometric Function', 'with Lapses on Simulated Observer Data'})
+title({'Probit Psychometric Function', 'with Lapses on Simulated Observer Data'})
 hold on;
 
 StimLevels = [-10 -2 -1 0 1 2 10];
